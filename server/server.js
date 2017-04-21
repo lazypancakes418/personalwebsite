@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 app.use(morgan('dev'));
 
 app.use(express.static(path.join(__dirname, '../client')));
+
 app.listen(port, () => {
   console.log('Listening on port ', port);
 });
