@@ -1,0 +1,19 @@
+{
+  "name": "personal",
+  "version": "0.0.1",
+  "description": "My personal Website",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjmohammad/personalwebsite.git"
+  },
+  "author": "RJ Mohammad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjmohammad/personalwebsite/issues"
+  },
+  "homepage": "https://github.com/rjmohammad/personalwebsite#readme"
+}
