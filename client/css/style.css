@@ -1,6 +1,14 @@
 .jumbotron {
-  width: 100%;
+  width: 95%;
+  height: 30%;
+  margin: 0 auto;
 }
+
+frame {
+  overflow: hidden;
+  height: 100%;
+}
+
 img {
   height: 10%
 }
