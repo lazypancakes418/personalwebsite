@@ -1,4 +1,4 @@
-angular.module('app.home', [])
-.controller('HomeCTRL',function ($scope) {
-  $scope.name = 'RJ'
+angular.module('app.home', ['ngMaterial'])
+.controller('HomeCTRL',function ($scope, $mdSidenav) {
+  $scope.toggleLeft = () => $mdSidenav('left').toggle()
 });
